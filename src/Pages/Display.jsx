@@ -10,7 +10,10 @@ export const Display = () => {
     <NavBar/>
     <CenterIt>
     <Expose>
-      teste
+      TESTE
+      TESTE
+      TESTE
+      TESTE
     </Expose>
     </CenterIt>
    </Container>
