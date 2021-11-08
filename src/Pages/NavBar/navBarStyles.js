@@ -5,7 +5,7 @@ import siteLogo from '../../Assets/Image/sitelogo.jpg'
 export const Nav = styled.div`
   display: flex;
   width: 100%;
-  height: 150px;
+  height: 182px;
   justify-content: center;
   background: linear-gradient(
     #fd004c,
@@ -16,10 +16,10 @@ export const Nav = styled.div`
     #b102b7,
     #fd004c
   );
-
+ 
+  position: sticky;
   background-size: 2000% 2000%;
   animation: rainbow 3s ease infinite;
-  position: absolute;
   overflow: hidden;
 
   @keyframes rainbow {
@@ -45,8 +45,8 @@ export const Nav = styled.div`
 
 export const Logo = styled.div`
   display: flex;
-  height: 120px;
-  width: 180px;
+  max-height: 120px;
+  width: 165px;
   color: #fff;
   z-index: 9999;
   margin-top: 12px;

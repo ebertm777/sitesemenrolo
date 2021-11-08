@@ -11,25 +11,33 @@ export const Container = styled.div`
 export const CenterIt = styled.div`
   display: flex;
   justify-content: center;
-  align-items: center;
   width: 100vw;
   height: 100%;
 `;
 
 export const Expose = styled.div`
   display: flex;
-  width: 90%;
-  height: 100%;
-  background-color: #F3F3F3;
-  justify-content: center;
+  flex-direction: column;
+  width: 70%;
+  background-color: #f3f3f3;
   align-items: center;
-  border: 1px solid #A9A9A9;
+  border: 1px solid #a9a9a9;
 `;
 
 export const Menu = styled.div`
   display: flex;
   justify-content: center;
   width: 10%;
-  height: 100%;
-  flex-direction: column; 
+  flex-direction: column;
+`;
+
+export const Title = styled.h1`
+  display: flex;
+  color: #111111;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+`;
+
+export const Text = styled.p`
+  display: flex;
+  color: #111111;
 `;

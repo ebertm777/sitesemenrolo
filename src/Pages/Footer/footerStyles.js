@@ -1,25 +1,43 @@
 import styled from "styled-components";
-import Whatsapp from "../../Assets/Image/whatsapp.png";
 
 export const FooterBody = styled.div`
   display: flex;
   flex-direction: row;
-  justify-content: center;
+  justify-content: space-evenly;
   align-items: center;
-  height: 100px;
+  min-height: 100px;
   width: 100%;
   background-color: #111111;
+
+  @media screen and (max-width: 980px) {
+    flex-direction: column;
+  }
 `;
 
-export const Contact = styled.div`
+export const WhatsappIcon = styled.div`
   display: flex;
   align-items: center;
-  width: 200px;
+  max-width: 200px;
   height: 50px;
-  background-image: url(${Whatsapp});
-  background-size: 50px;
-  background-repeat: no-repeat;
   color: #fff;
-  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
   letter-spacing: 2px;
+
+  @media screen and (max-width: 980px) {
+    margin-left: 5px
+  }
+`;
+
+export const EmailIcon = styled.div`
+  display: flex;
+  align-items: center;
+  max-width: 200px;
+  height: 50px;
+  color: #fff;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  letter-spacing: 2px;
+
+  @media screen and (max-width: 980px) {
+    margin-left: 5px
+  }
 `;
